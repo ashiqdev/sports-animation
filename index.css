@@ -53,7 +53,8 @@ body {
   transform: translateY(-100%);
 }
 
-.item-container {
+.item-container,
+.table-container {
   overflow: hidden;
   height: 90vw;
   display: flex;
@@ -61,7 +62,8 @@ body {
   position: relative;
 }
 
-.item-wrapper {
+.item-wrapper,
+.table-wrapper {
   width: 400px;
   height: max-content;
   padding: 5px;
